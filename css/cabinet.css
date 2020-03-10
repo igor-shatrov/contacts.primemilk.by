@@ -1,0 +1,69 @@
+.tools a {
+  background: #6e80ee;
+  margin: 5px;
+}
+.tools a:hover {
+  background: #505eb8;
+  opacity: 5000;
+}
+.modal-add {
+  position: relative;
+  width: 800px;
+  height: 700px;
+  border: 1px solid #6e80ee;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px #1d1d1d;
+  padding: 10px;
+  background: #fff;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+.modal-edit {
+  position: relative;
+  width: 800px;
+  height: 700px;
+  border: 1px solid #6e80ee;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px #1d1d1d;
+  padding: 10px;
+  background: #fff;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+#photo {
+  max-height: 300px;
+}
+.photo-wrapper {
+  width: 250px;
+  height: 200px;
+}
+.worker-form {
+  margin: 0;
+}
+.modal-worker {
+  height: 380px;
+}
+#photo_edit_img {
+  max-height: 280px;
+}
+.photo-wrapper-edit {
+    width: 250px;
+    height: 300px;
+  }
+#delete_photo{
+    width: 200px;
+}

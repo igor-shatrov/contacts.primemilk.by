@@ -1,0 +1,178 @@
+.site-title {
+  font-size: 50px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Serif", serif;
+}
+.brand-logo img {
+  height: 55px;
+margin: 5px;
+}
+.nav-wrapper{
+    background-color: #6e80ee;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #6e80ee;
+  -webkit-box-shadow: 0 1px 0 0 #6e80ee;
+          box-shadow: 0 1px 0 0 #6e80ee;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #6e80ee;
+}
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid #6e80ee;
+    
+  }
+  .dropdown-content li > a, .dropdown-content li > span {
+    color: #6e80ee;
+  }
+  .nav-wrapper p{
+      padding: 0 15px;
+      cursor: pointer;
+  }
+.modal-wrap {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.modal-project {
+    position: relative;
+    width: 250px;
+    /* height: 320px; */
+    border: 1px solid #6e80ee;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #1d1d1d;
+    padding: 10px;
+    background: #fff;   
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto; 
+}
+
+.modal-project-close {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+#login-submit{
+    background: #6e80ee;
+}
+.worker{
+  padding:10px 0;
+  cursor: pointer;
+}
+.worker:hover{
+  box-shadow: 1px 1px 2px 2px #a4a5ac;
+}
+.modal-worker{
+  position: relative;
+    width: 800px;
+    height: 360px;
+    border: 1px solid #6e80ee;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #1d1d1d;
+    padding: 10px;
+    background: #fff;   
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto; 
+}
+.worker-form span{
+  /* margin: 5px; */
+  font-size: 18px;
+}
+.worker-form div{
+  margin: 5px;
+}
+.bold{
+  font-weight: bold;
+}
+#birthday{
+  bottom: 0;
+}
+#photo {
+  max-height: 290px;
+}
+.photo-wrapper {
+  width: 250px;
+  height: 200px;
+}
+.worker-form {
+  margin: 0;
+}
+
+@media print {
+	.white{
+	display: none;
+	}
+	.modal-wrap{
+	display: none;
+	}
+
+
+
+
+}
+
