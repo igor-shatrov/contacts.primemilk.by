@@ -10,7 +10,6 @@ pipeline {
 
     stage('copy to server') {
       steps {
-        sh 'scp ../contacts.primemilk.by administrator@192.168.221.128:/sites/new -p master'
         archiveArtifacts '../contacts.primemilk.by'
       }
     }
